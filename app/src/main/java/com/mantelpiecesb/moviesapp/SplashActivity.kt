@@ -27,6 +27,7 @@ class SplashActivity : AppCompatActivity() {
             setContentView(R.layout.activity_splash)
             overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
             startActivity(Intent(this@SplashActivity, MainActivity::class.java))
+            finish()
         }
     }
 
